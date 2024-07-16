@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div className='text-white'>
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center '> 
-        <p className='text-[#00df9a] font-bold' >Get Your Classes Faster With</p>
+        <p className='theme-text font-bold' >Get Your Classes Faster With</p>
         <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>RU TURBO</h1>
         <div className='flex justify-center items-center'>
             <p className='md:text-3xl sm:text-4xl text-xl font-bold'>Fast and reliable, get notified Via </p>
@@ -43,4 +43,4 @@ function Hero() {
   )
 }
 
-export default Hero
+export default Hero;

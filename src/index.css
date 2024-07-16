@@ -5,3 +5,42 @@
 body { 
   background-color: #000300;
 }
+.contact-title {
+  margin-bottom: 1rem;
+}
+.contact-bg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  background-color: #8f3737;
+}
+.st-box {
+  height: 60px; 
+  width: 400px;
+  background-color: #7e4343;
+  padding: 10px;
+  border-radius: 10px;
+}
+.bt-box{
+  height: 150px; 
+  width: 400px;
+  background-color: #7e4343;
+  padding: 10px;
+  border-radius: 10px;
+}
+.contact-btn{
+  border-radius: 12px;
+  height: 60px;
+  width: 400px;
+  background-color: #612020d5;
+  font-size: 12px;
+}
+.contact-btn:active {
+  box-shadow: 0 3px #6120206b;
+  transform: translateY(1px);
+}
+.theme-text{
+  color: #ec3232;
+}
