@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import Contact from './components/Contact';
 import MyComponent from './components/MyComponent'
 
 function App() {
   return (
     <div>
      <Navbar />
-     <Hero />
+     <Contact />
      {/* <MyComponent /> */}
     </div>
   );
