@@ -14,7 +14,7 @@ export default function Contact() {
       <div className='mb-4'>
         <h3>Email</h3>
         <div>
-          <input name="email" className='st-box' placeholder=""  />
+          <input name="" className='st-box' placeholder=""  />
         </div>
       </div>
       <div className='mb-2'>
