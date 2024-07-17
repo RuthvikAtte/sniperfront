@@ -5,6 +5,21 @@
 body { 
   background-color: #000300;
 }
+
+body { 
+  background:linear-gradient(#be2626,#000300);
+
+}
+
+.bk-red{
+  background-color:#ec3232
+}
+
+.red-theme {
+  color : #ec3232
+}
+
+
 .contact-title {
   margin-bottom: 1rem;
 }

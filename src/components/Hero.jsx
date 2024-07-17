@@ -15,7 +15,7 @@ function Hero() {
 
         <div className='flex justify-center items-center '>
         <a className=' font-bold pl-2 text-[#808080]'> Fill out our interest form and snipe</a>
-        <a className='md:text-3xl text-bold text-[#00df9a] pl-2'>7 FREE</a>
+        <a className='md:text-3xl text-bold red-theme pl-2'>7 FREE</a>
         <a className=' font-bold pl-2 '>Classes</a>
         </div>
 
@@ -26,13 +26,13 @@ function Hero() {
 
         <div className=' flex justify-center items-center '>
             <p className='font-bold text-2xl'>Under</p>
-            <p className='md:text-3xl text-bold text-[#00df9a] pl-2'>ONE</p>
+            <p className='md:text-3xl text-bold red-theme pl-2'>ONE</p>
             <p className='pl-2 font-bold text-2xl'>second</p>
         </div>
 
         <div className='justify-center'>
         <a href='https://forms.gle/QsvvAsndmc6z4DDv8' target="_blank" > 
-        <button className=' bg-[#00df9a] w-[200px] rounded-md font-medium my-6 ' >Get Started</button>
+        <button className=' bk-red w-[200px] rounded-md font-medium my-6 ' >Get Started</button>
 
         </a>
         </div>
