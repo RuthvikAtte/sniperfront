@@ -3,14 +3,19 @@
 @tailwind utilities;
 
 body { 
-  background-color: #000300;
+  overflow-y: scroll;
 }
 
 body { 
   background:linear-gradient(#be2626,#000300);
-
 }
-
+.footer {
+  width:100%;
+  bottom: 0;
+  left: 0;
+  margin-top: 3rem;
+  height: 80px;
+}
 .bk-red{
   background-color:#ec3232
 }
@@ -18,8 +23,21 @@ body {
 .red-theme {
   color : #ec3232
 }
-
-
+.theme-text{
+  color: #ec3232;
+}
+.get-started {
+  border-radius: 12px;
+  height: 55px;
+  width: 300px;
+  margin-top: 1rem;
+  background-color: #b31616d5;
+  font-size: 15px;
+}
+.get-started-btn:active {
+  box-shadow: 0 3px #6120206b;
+  transform: translateY(2px);
+}
 .contact-title {
   margin-bottom: 1rem;
 }
@@ -28,8 +46,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height:100vh;
-  background-color: #8f3737;
 }
 .st-box {
   height: 60px; 
@@ -49,13 +65,10 @@ body {
   border-radius: 12px;
   height: 60px;
   width: 400px;
-  background-color: #612020d5;
+  background-color: #862323d5;
   font-size: 12px;
 }
 .contact-btn:active {
   box-shadow: 0 3px #6120206b;
-  transform: translateY(1px);
-}
-.theme-text{
-  color: #ec3232;
+  transform: translateY(2px);
 }
