@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import '../index.css';
 
-
 export default function Footer() {
   return (
     <div className='footer flex justify-center'>
