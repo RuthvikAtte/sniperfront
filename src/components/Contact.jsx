@@ -1,6 +1,6 @@
 import React from 'react'
 import { ReactTyped} from 'react-typed'
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 
 export default function Contact() {
   return (
