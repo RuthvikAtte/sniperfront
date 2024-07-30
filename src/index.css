@@ -7,7 +7,7 @@ body {
 }
 
 body { 
-  background:linear-gradient(#be2626,#000300);
+  background:black;
 }
 .footer {
   width:100%;
@@ -18,10 +18,6 @@ body {
 }
 .bk-red{
   background-color:#ec3232
-}
-
-.red-theme {
-  color : #ec3232
 }
 .theme-text{
   color: #ec3232;
@@ -71,4 +67,13 @@ body {
 .contact-btn:active {
   box-shadow: 0 3px #6120206b;
   transform: translateY(2px);
+}
+.spline-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  
 }
