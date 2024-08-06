@@ -13,7 +13,7 @@ const Navbar = () => {
       <h1 className='w-full text-3xl font-bold'>RU TURBO</h1>
         <ul className=' hidden md:flex'>
         <button className='p-4'><Link to="/">Home</Link></button>
-        <button className='p-4'>About</button>
+        <button className='p-4'><Link to="/about">About</Link></button>
         <button className='p-4'><Link to="/contact">Contact</Link></button>
         </ul>
     </div>
