@@ -1,6 +1,5 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
-import Calendar from "react-calendar";
 export default function Hero() {
   return (
     <div className="text-white">

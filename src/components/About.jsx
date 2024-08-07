@@ -35,7 +35,7 @@ const RevealOnScroll = ({ children }) => {
 
 export default function About() {
   return (
-    <div className="h-screen mx-72 text-white contact-bg">
+    <div className="ml-20 mr-20 mb-72 text-white contact-bg">
       <Carousel
         autoPlay={true}
         showIndicators={false}
@@ -62,7 +62,7 @@ export default function About() {
           </p>
         </div>
         <div className="ml-10">
-          <h1 className="text-3xl font-bold red-theme">Our Mission</h1>
+          <h1 className="text-4xl font-bold red-theme">Our Mission</h1>
           <p className="text-2xl">
             Here at RUTurbo, we’re on a mission to change the game. Our goal? To
             ensure you never miss out on a class again. With instant alerts
@@ -74,7 +74,7 @@ export default function About() {
           </p>
         </div>
         <div className="ml-10">
-          <h1 className="text-3xl font-bold red-theme">Our Story</h1>
+          <h1 className="text-4xl font-bold red-theme">Our Story</h1>
           <p className="text-2xl">
             Our story is one of frustration turned innovation. As computer
             science students from humble backgrounds, we were tired of the same
@@ -85,7 +85,7 @@ export default function About() {
           </p>
         </div>
         <div className="ml-10">
-          <h1 className="text-3xl font-bold red-theme">
+          <h1 className="text-4xl font-bold red-theme">
             Made by Students, for Students
           </h1>
           <p className="text-2xl">
@@ -99,7 +99,7 @@ export default function About() {
           </p>
         </div>
         <div className="ml-10">
-          <h1 className="text-3xl font-bold red-theme">
+          <h1 className="text-4xl font-bold red-theme">
             Our Vision for the Future
           </h1>
           <p className="text-2xl">
@@ -111,7 +111,7 @@ export default function About() {
           </p>
         </div>
         <div className="ml-10">
-          <h1 className="text-3xl font-bold red-theme">
+          <h1 className="text-4xl font-bold red-theme">
             Join Us on This Journey
           </h1>
           <p className="text-2xl">
