@@ -9,7 +9,7 @@ export default function Hero() {
         </h1>
         <div className="flex justify-center items-center">
           <p className="md:text-2xl sm:text-4xl text-xl font-bold">
-            Fast and reliable, get notified Via{" "}
+            Fast and reliable, get notified via {" "}
           </p>
           <ReactTyped
             className="text-3xl pb-1 font-bold pl-2 red-theme"
@@ -20,23 +20,21 @@ export default function Hero() {
           />
         </div>
 
-        <div className="flex justify-center items-center">
-          <a className=" font-bold text-[#ffffff]">
-            {" "}
-            Join waitlist and snipe
-          </a>
-          <a className="md:text-2xl font-bold red-theme pl-2 pb-1">7 FREE</a>
-          <a className=" font-bold pl-2 ">classes</a>
+        <div className="mt-10 flex justify-center items-center">
+          <p className=" font-bold text-[#ffffff]">
+            Join waitlist below and snipe </p>
+          <p className="font-bold red-theme pl-2 text-2xl pb-1"> 7 FREE</p>
+          <p className=" font-bold pl-2 ">classes</p>
         </div>
         <div className=" flex justify-center items-center">
-          <p className="font-bold text-2xl">Under</p>
-          <p className="md:text-3xl font-bold red-theme pb-1 pl-2">1</p>
-          <p className="pl-2 font-bold text-2xl">second</p>
+          <p className="font-bold">Under</p>
+          <p className="md:text-2xl font-bold red-theme pb-1 pl-2">ONE</p>
+          <p className="pl-2 font-bold">second</p>
         </div>
 
         <div className="justify-center">
           <a href="https://forms.gle/QsvvAsndmc6z4DDv8" target="_blank">
-          <button className='get-started shadow-lg'>Join Now</button>
+          <button className='get-started'>Join Now</button>
           </a>
         </div>
       </div>

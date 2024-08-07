@@ -10,7 +10,7 @@ const Navbar = () => {
     }
   return (
     <div className = 'flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white navbar-bg'>
-      <h1 className='w-full text-3xl font-bold'>RU TURBO</h1>
+      <h1 className='w-full text-3xl font-bold red-theme'>RU TURBO</h1>
         <ul className='hidden md:flex'>
         <button className='p-4'><Link to="/">Home</Link></button>
         <button className='p-4'><Link to="/contact">Contact</Link></button>
