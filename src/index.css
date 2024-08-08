@@ -9,6 +9,30 @@ body {
 body { 
   background:black;
 }
+.about-page {
+}
+@media screen and (max-width: 500px) {
+  .about-page {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .about-page h1 {
+    font-size: 1.5rem;
+  }
+  .about-page p {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .main-text {
+    font-size: 1rem;
+  }
+  .moving-text {
+    font-size: 1rem;
+    padding-bottom: 0;
+  }
+}
 .footer {
   width:100%;
   bottom: 0;
@@ -39,12 +63,6 @@ body {
 }
 .contact-title {
   margin-bottom: 1rem;
-}
-.contact-bg{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .st-box {
   height: 60px; 

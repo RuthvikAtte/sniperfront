@@ -8,11 +8,11 @@ export default function Hero() {
           RU TURBO
         </h1>
         <div className="flex justify-center items-center">
-          <p className="md:text-2xl sm:text-4xl text-xl font-bold">
+          <p className="md:text-2xl sm:text-4xl text-xl font-bold main-text">
             Fast and reliable, get notified via {" "}
           </p>
           <ReactTyped
-            className="text-3xl pb-1 font-bold pl-2 red-theme"
+            className="text-3xl pb-1 font-bold pl-2 red-theme moving-text"
             strings={["Call", "Email", "Discord", "Telegram", "SMS"]}
             typeSpeed={150}
             backSpeed={150}
@@ -23,12 +23,12 @@ export default function Hero() {
         <div className="mt-10 flex justify-center items-center">
           <p className=" font-bold text-[#ffffff]">
             Join waitlist below and snipe </p>
-          <p className="font-bold red-theme pl-2 text-2xl pb-1"> 7 FREE</p>
+          <p className="font-bold red-theme pl-2 text-2xl pb-1 moving-text"> 7 FREE</p>
           <p className=" font-bold pl-2 ">classes</p>
         </div>
         <div className=" flex justify-center items-center">
           <p className="font-bold">Under</p>
-          <p className="md:text-2xl font-bold red-theme pb-1 pl-2">ONE</p>
+          <p className="md:text-2xl font-bold red-theme pb-1 pl-2 moving-text">ONE</p>
           <p className="pl-2 font-bold">second</p>
         </div>
 

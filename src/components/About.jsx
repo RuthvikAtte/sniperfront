@@ -35,7 +35,7 @@ const RevealOnScroll = ({ children }) => {
 
 export default function About() {
   return (
-    <div className="ml-20 mr-20 mb-72 text-white contact-bg">
+    <div className="ml-20 mr-20 mb-72 text-white about-page">
       <Carousel
         autoPlay={true}
         showIndicators={false}
@@ -48,7 +48,7 @@ export default function About() {
         centerSlidePercentage={80}
         stopOnHover={true}
         axis="horizontal"
-        dynamicHeight={true}
+        dynamicHeight={false}
         className="black"
       >
         <div className="ml-10">
