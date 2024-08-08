@@ -47,6 +47,15 @@ body {
   .contact-btn{
     width: 300px !important;
   }
+  .navbar-bg {
+    width: 100%;
+    flex-direction: row;
+    margin: 0;
+  }
+  .navbar-title {
+    font-size: 1.5rem;
+    width: 150px;
+  }
 }
 .footer {
   width:100%;
