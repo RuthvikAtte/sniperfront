@@ -16,11 +16,16 @@ const SplineScene = ({onLoaded}) => {
 
       
     return (
+      //   <div className="spline-background">
+      //       <Spline
+      //   scene="https://prod.spline.design/4gEOJhKN116u6bHE/scene.splinecode" 
+      // />
+      //   </div>
         <div className="spline-background">
-            <Spline
-        scene="https://prod.spline.design/9xfrf1iBqGq2kiqm/scene.splinecode" 
-      />
-        </div>
+        <Spline
+    scene="https://prod.spline.design/8ciRUqlhwaU5bKsp/scene.splinecode" 
+  />
+    </div>
     );
 };
 
